@@ -1,0 +1,43 @@
+{
+  "name": "sofa-api",
+  "version": "0.10.2",
+  "description": "Create REST APIs with GraphQL",
+  "sideEffects": false,
+  "peerDependencies": {
+    "graphql": "^0.13.2 || ^14.0.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "@graphql-tools/utils": "7.7.1",
+    "@types/js-yaml": "4.0.0",
+    "ansi-colors": "4.1.1",
+    "axios": "0.21.1",
+    "js-yaml": "4.0.0",
+    "param-case": "3.0.4",
+    "title-case": "3.0.3",
+    "trouter": "3.1.0",
+    "tslib": "2.1.0",
+    "uuid": "8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Urigo/sofa"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "graphql",
+    "sofa"
+  ],
+  "author": {
+    "name": "Uri Goldshtein",
+    "email": "uri.goldshtein@gmail.com",
+    "url": "https://github.com/Urigo"
+  },
+  "license": "MIT",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "typings": "index.d.ts",
+  "typescript": {
+    "definition": "index.d.ts"
+  }
+}
